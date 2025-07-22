@@ -1,59 +1,58 @@
-# {{ Repository_Name }}
 
-The aim of this repository is to provide details of the data sets and code used in the related research titled *{{ Research_Title }}*.
+# SweetSpotBT
+
+The aim of this repository is to provide details of the data sets and code used in the related research titled *The Sweet Spot of Bound Tightening for Topology Optimization*.
+
 
 ## Data Description
 
 The following files are included in this repository:
-* `{{ File_1_Name }}`: {{ File_1_Description }}
-* `{{ File_2_Name }}`: {{ File_2_Description }}
-
-## References
-
-[1] {{ Reference_1_Details }}
+* `case118Blumsack.m`: Contains all the network data information.
+* `BigM.csv`: Includes the initial large constants (Big M values) used for each line.
+* `DemandProfiles.csv`: Contains the 300 demand profiles used in the study.
 
 ## Developed by
 
-* {{ Developer_1_Name }} ([{{ Developer_1_Email }}](mailto:{{ Developer_1_Email }})) - [GitHub: {{ Developer_1_GitHub }}](https://github.com/{{ Developer_1_GitHub }})  
-* {{ Developer_2_Name }} ([{{ Developer_2_Email }}](mailto:{{ Developer_2_Email }})) - [GitHub: {{ Developer_2_GitHub }}](https://github.com/{{ Developer_2_GitHub }})  
-* {{ Developer_3_Name }} ([{{ Developer_3_Email }}](mailto:{{ Developer_3_Email }})) - [GitHub: {{ Developer_3_GitHub }}](https://github.com/{{ Developer_3_GitHub }})
+* Salvador Pineda ([spineda@uma.es](mailto:spineda@uma.es)) - [GitHub: salvapineda](https://github.com/salvapineda)  
+* Juan Miguel Morales ([juan.morales@uma.es](mailto:juan.morales@uma.es)) - [GitHub: juanmi82mg](https://github.com/juanmi82mg)
+
 
 ## Funding
 
-This work was supported by the following projects:  
-* {{ Funding_Project_1_Details }}  
-* {{ Funding_Project_2_Details }}  
-* {{ Funding_Project_3_Details }}
+This work was supported in part by the Spanish Ministry of Science and Innovation (AEI/10.13039/501100011033) through project PID2023-148291NB-I00.
+
 
 ## How to cite the repo and the paper?
 
 If you want to cite the related paper or this repository, please use the following bib entries:
 
-* Article:
+* Article (to be completed):
 ```
-@article{{ {{ Article_Citation_Key }},
-title = {{ {{ Article_Title }} }},
-journal = {{ {{ Journal_Name }} }},
-volume = {{ {{ Volume }} }},
-pages = {{ {{ Pages }} }},
-year = {{ {{ Year }} }},
-author = {{ {{ Authors }} }}
+@article{ArticleCitationKey,
+  title   = {The Sweet Spot of Bound Tightening for Topology Optimization},
+  journal = {},
+  volume  = {},
+  pages   = {},
+  year    = {},
+  author  = {Salvador Pineda and Juan Miguel Morales}
 }
 ```
 * Repository:
 ```
-@misc{{ {{ Repository_Citation_Key }},
-author={{ {{ Repository_Author }} }},
-year={{ {{ Repository_Year }} }},
-title = {{ {{ Repository_Title }} }},
-howpublished = {{\url{{ {{ Repository_URL }} }} }}
+@misc{SweetSpotBT2025,
+  author       = {Salvador Pineda and Juan Miguel Morales},
+  year         = {2025},
+  title        = {SweetSpotBT},
+  howpublished = {\url{https://github.com/groupoasys/SweetSpotBT}}
 }
 ```
+
 
 ## Do you want to contribute?
 
 Please, do it. Any feedback is welcome, so feel free to ask or comment anything you want via a Pull Request in this repo.  
 If you need extra help, you can contact us.
+
 
 ## License
 
