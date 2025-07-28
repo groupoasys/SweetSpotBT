@@ -26,15 +26,14 @@ This work was supported in part by the Spanish Ministry of Science and Innovatio
 
 If you want to cite the related paper or this repository, please use the following bib entries:
 
-* Article (to be completed):
+* Article:
 ```
-@article{ArticleCitationKey,
+@article{Pineda2025,
+  author  = {Pineda, S. and Morales, J. M.},
   title   = {The Sweet Spot of Bound Tightening for Topology Optimization},
-  journal = {},
-  volume  = {},
-  pages   = {},
-  year    = {},
-  author  = {Salvador Pineda and Juan Miguel Morales}
+  journal = {arXiv preprint},
+  year    = {2025},
+  eprint  = {arXiv:2507.16496}
 }
 ```
 * Repository:
